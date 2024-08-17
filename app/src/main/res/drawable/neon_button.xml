@@ -1,0 +1,21 @@
+<!-- res/drawable/neon_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="#33FF33" /> <!-- Pressed color -->
+            <stroke
+                android:width="2dp"
+                android:color="#00CC00" /> <!-- Border color -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="8dp" />
+            <solid android:color="#00FF00" /> <!-- Default color -->
+            <stroke
+                android:width="2dp"
+                android:color="#00CC00" /> <!-- Border color -->
+        </shape>
+    </item>
+</selector>

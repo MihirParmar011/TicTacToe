@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+   android:background="@color/black" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/xo"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+        <!--Row 1-->
+        <Button
+            android:id="@+id/btn00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:onClick="Check"/>
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:backgroundTint="@color/Neon"
+            android:contentDescription="@string/app_name"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:textColor="@color/black" />
+
+        <!--Row 2-->
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            />
+
+        <!--Row 3-->
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            android:textSize="32sp"
+            android:backgroundTint="@color/Neon"
+            android:textColor="@color/black"
+            style="@style/NeonButton"
+            />
+
+
+    </GridLayout>
+
+</LinearLayout>
